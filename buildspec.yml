@@ -1,4 +1,7 @@
 version: 0.2
+  secrets-manager:
+    DOCKERHUB_TOKEN: my-docker-secret:token
+    DOCKERHUB_USER: my-docker-secret:user
 phases:
   pre_build:
     commands:
